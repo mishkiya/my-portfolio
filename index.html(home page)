@@ -60,6 +60,9 @@
     <section id="image">
         <p>this is my image link: </p>
         <img scr="./image/mishkiya.jpg" alt="this is me"width="200" height="150"/>
+        <!-- Example of a clickable image -->
+        <a href="about.html">
+        <img src="./image/aau campus.jpg" alt="A photo of my campus" ></a>
     
     </section>
         <blockquote>
