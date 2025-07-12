@@ -60,9 +60,7 @@
     <section id="image">
         <p>this is my image link: </p>
         <img scr="./image/mishkiya.jpg" alt="this is me"width="200" height="150"/>
-    <br/>
-        <p>this is my campus : </p>
-        <img src="./image/aau campus.jpg" alt="this is addis ababa university"width="250" height="200"/>
+    
     </section>
         <blockquote>
             "Passionate about using technology to solve real-world problems"
