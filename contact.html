@@ -3,9 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Mishkiya</title>
 </head>
 <body>
-    
+    <header>
+        <h1>contact me</h1>
+        <div role="navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </header>
+    <!--contact section-->
+    <section id="confact form">
+        <h2>Get In Touch</h2>
+        <p>"complete the form below,and i'll respond to you prompyly"</p>
+        <form>
+            <label for="name">your full Name:</label>
+            <input type="text" id="name" value="name" placeholder="Enter your full name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" value="email" placeholder="Enter your email"required>
+            <br>
+            <label>Gender:
+                <input type="radio" name="gender" value="female"> Female
+                <input type="radio" name="gender" value="male"> Male
+            </label>
+            
+            <label>
+                <input type="checkbox" name="subscribe"> Subscribe to my youtube channel
+            </label>
+            
+            <label for="message">your message:</label><br>
+            <input type="text" id="message"name="message" placeholder="Enter your message here..."><br>
+            
+            <button type="submit">Send Message</button>
+            <button type="reset">Clear Form</button>
+        </form>
+        
+    </section>
 </body>
 </html>
